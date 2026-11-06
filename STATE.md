@@ -10,9 +10,9 @@ A human-readable snapshot of how this project was produced. The machine-readable
 | Project | **Wanderlust 3D: Global Destination Explorer** |
 | Version | 1.0.0 |
 | Session start | 2026-11-06 03:18:11 UTC |
-| Packaged | 2026-11-06 04:17:57 UTC |
+| Packaged | 2026-11-06 04:20:10 UTC |
 | Deployed | 2026-11-06 04:17:37 UTC |
-| Elapsed | **3,585 s — 59m 45s** |
+| Elapsed | **3,719 s — 1h 1m 59s** |
 | Harness | **OpenCode 2.2.5** |
 | Model | **DeepSeek V4.1 Flash** (`opencode-go/deepseek-v4.1-flash`) |
 | Cost reported | **$0.00** |
@@ -42,19 +42,19 @@ A human-readable snapshot of how this project was produced. The machine-readable
 
 | Metric | Value |
 | --- | ---: |
-| Input tokens | 283,331 |
-| Output tokens | 139,004 |
-| Reasoning tokens | 71,902 |
-| **Total (input + output + reasoning)** | **494,237** |
-| Cache read | 35,218,944 |
+| Input tokens | 291,927 |
+| Output tokens | 143,978 |
+| Reasoning tokens | 73,810 |
+| **Total (input + output + reasoning)** | **509,715** |
+| Cache read | 38,536,704 |
 | Cache write | 1,336 |
-| Total including cache | 35,714,517 |
+| Total including cache | 39,047,755 |
 
 Cache reads are repeated context usage, not new generation. They are reported separately so the
 headline total stays comparable to a normal token count.
 
 > **Snapshot note:** the figures were read from the OpenCode session record at
-> 2026-11-06 04:17:57 UTC, before the final state-file commit, push and closing response. The live
+> 2026-11-06 04:20:10 UTC, before the final state-file commit, push and closing response. The live
 > session totals will be marginally higher. The authoritative query is in
 > [`docs/REPRODUCTION.md`](docs/REPRODUCTION.md#7-record-state).
 

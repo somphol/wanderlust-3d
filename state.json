@@ -13,24 +13,24 @@
   "build": {
     "sessionStartedAt": "2026-11-06T03:18:11.889Z",
     "startedAt": "2026-11-06T03:18:11.889Z",
-    "packagedAt": "2026-11-06T04:17:57.162Z",
+    "packagedAt": "2026-11-06T04:20:10.732Z",
     "deployedAt": "2026-11-06T04:17:37Z",
-    "durationSeconds": 3585,
-    "durationHuman": "59m 45s",
-    "sessionDurationSeconds": 3585,
-    "sessionDurationHuman": "59m 45s",
+    "durationSeconds": 3719,
+    "durationHuman": "1h 1m 59s",
+    "sessionDurationSeconds": 3719,
+    "sessionDurationHuman": "1h 1m 59s",
     "timezone": "UTC",
     "includes": "Orientation and GitHub auth check; content architecture; visual curation of 24 Unsplash images; 15 researched destination guides; full HTML/CSS/JS application; responsive and accessibility fixes; 81-check headless verification; image reachability audit; 9 generated screenshots plus a 1200x630 social card; README and 6 release docs; 404/manifest/icon/robots/sitemap; GitHub repository, Pages workflow and live deployment; reusable skill packaged and published to the OpenCode skills catalog."
   },
   "tokens": {
-    "input": 283331,
-    "output": 139004,
-    "reasoning": 71902,
-    "cacheRead": 35218944,
+    "input": 291927,
+    "output": 143978,
+    "reasoning": 73810,
+    "cacheRead": 38536704,
     "cacheWrite": 1336,
-    "total": 494237,
-    "totalWithCache": 35714517,
-    "note": "Snapshot from the OpenCode session record at 2026-11-06T04:17:57Z. total = input + output + reasoning. Cache reads/writes are context-usage figures and are reported separately. The final state-file commit, GitHub push and closing response happen after this snapshot, so the live session totals will be marginally higher."
+    "total": 509715,
+    "totalWithCache": 39047755,
+    "note": "Snapshot from the OpenCode session record at 2026-11-06T04:20:10Z. total = input + output + reasoning. Cache reads/writes are context-usage figures and are reported separately. The final state-file commit, GitHub push and closing response happen after this snapshot, so the live session totals will be marginally higher."
   },
   "cost": {
     "usd": 0.0,
