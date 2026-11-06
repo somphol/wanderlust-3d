@@ -1,0 +1,185 @@
+{
+  "project": "wanderlust-3d",
+  "title": "Wanderlust 3D: Global Destination Explorer",
+  "description": "A production-ready, zero-build travel atlas covering 3 regions and 15 curated destinations (Japan, Italy, Costa Rica), with verified Unsplash photography, a three-slide hero, live search and interest/budget filters, destination modals with deep links, three signature routes, a persistent localStorage itinerary, 81 headless checks and a GitHub Pages release.",
+  "repository": "https://github.com/somphol/wanderlust-3d",
+  "liveDemo": "https://somphol.github.io/wanderlust-3d/",
+  "release": {
+    "version": "1.0.0",
+    "commit": "a2b72cc",
+    "pagesWorkflow": "https://github.com/somphol/wanderlust-3d/actions/runs/42161593615",
+    "pagesConclusion": "success"
+  },
+  "build": {
+    "sessionStartedAt": "2026-11-06T03:18:11.889Z",
+    "startedAt": "2026-11-06T03:18:11.889Z",
+    "packagedAt": "2026-11-06T04:17:57.162Z",
+    "deployedAt": "2026-11-06T04:17:37Z",
+    "durationSeconds": 3585,
+    "durationHuman": "59m 45s",
+    "sessionDurationSeconds": 3585,
+    "sessionDurationHuman": "59m 45s",
+    "timezone": "UTC",
+    "includes": "Orientation and GitHub auth check; content architecture; visual curation of 24 Unsplash images; 15 researched destination guides; full HTML/CSS/JS application; responsive and accessibility fixes; 81-check headless verification; image reachability audit; 9 generated screenshots plus a 1200x630 social card; README and 6 release docs; 404/manifest/icon/robots/sitemap; GitHub repository, Pages workflow and live deployment; reusable skill packaged and published to the OpenCode skills catalog."
+  },
+  "tokens": {
+    "input": 283331,
+    "output": 139004,
+    "reasoning": 71902,
+    "cacheRead": 35218944,
+    "cacheWrite": 1336,
+    "total": 494237,
+    "totalWithCache": 35714517,
+    "note": "Snapshot from the OpenCode session record at 2026-11-06T04:17:57Z. total = input + output + reasoning. Cache reads/writes are context-usage figures and are reported separately. The final state-file commit, GitHub push and closing response happen after this snapshot, so the live session totals will be marginally higher."
+  },
+  "cost": {
+    "usd": 0.0,
+    "note": "As reported by the OpenCode session record. Provider billing may differ."
+  },
+  "sessionId": "ses_e5122d766ffeIjJBL2QxOOo3WO",
+  "model": {
+    "name": "DeepSeek V4.1 Flash",
+    "providerID": "opencode-go",
+    "modelID": "deepseek-v4.1-flash"
+  },
+  "harness": {
+    "name": "OpenCode",
+    "version": "2.2.5",
+    "url": "https://opencode.ai"
+  },
+  "content": {
+    "regions": [
+      "Japan",
+      "Italy",
+      "Costa Rica"
+    ],
+    "destinations": 15,
+    "destinationsPerRegion": 5,
+    "signatureRoutes": 3,
+    "interestTags": 12,
+    "uniqueUnsplashImages": 24,
+    "galleryImagesPerDestination": 3,
+    "attractionsPerDestination": 3,
+    "cuisineItemsPerDestination": 4
+  },
+  "stack": {
+    "runtime": [
+      "HTML5",
+      "CSS3",
+      "ES6 JavaScript"
+    ],
+    "styling": [
+      "CSS custom properties",
+      "hand-authored CSS",
+      "Tailwind Play CDN 3.4.17 (brief requirement; not the layout source)"
+    ],
+    "graphics": [
+      "Unsplash CDN photography with srcset",
+      "inline SVG icon sprite"
+    ],
+    "storage": [
+      "localStorage: wanderlust.trip.v1"
+    ],
+    "hosting": [
+      "GitHub Pages",
+      "GitHub Actions"
+    ],
+    "testing": [
+      "Node.js 26",
+      "puppeteer-core 24",
+      "Google Chrome headless"
+    ],
+    "fonts": [
+      "System serif: Iowan Old Style / Palatino / Georgia",
+      "System sans: Avenir Next / Segoe UI / system-ui"
+    ]
+  },
+  "files": {
+    "totalTracked": 40,
+    "core": [
+      {
+        "path": "index.html",
+        "bytes": 29567,
+        "lines": 492
+      },
+      {
+        "path": "style.css",
+        "bytes": 68299,
+        "lines": 2474
+      },
+      {
+        "path": "data.js",
+        "bytes": 59659,
+        "lines": 1213
+      },
+      {
+        "path": "script.js",
+        "bytes": 51481,
+        "lines": 1442
+      }
+    ],
+    "docs": 6,
+    "screenshots": 9,
+    "scripts": 5
+  },
+  "verification": {
+    "headlessChecks": {
+      "passed": 81,
+      "total": 81,
+      "result": "all passed"
+    },
+    "imageAudit": {
+      "passed": 24,
+      "total": 24,
+      "result": "all reachable"
+    },
+    "consoleErrors": 0,
+    "pageErrors": 0,
+    "horizontalOverflow": {
+      "390": false,
+      "768": false,
+      "1440": false
+    },
+    "liveSmokeTest": {
+      "httpStatus": 200,
+      "title": "Wanderlust 3D — Global Destination Explorer",
+      "cards": 15,
+      "heroImageLoaded": true,
+      "errors": 0
+    },
+    "screenshots": [
+      "screenshots/desktop-hero.jpg",
+      "screenshots/desktop-explorer.jpg",
+      "screenshots/desktop-routes.jpg",
+      "screenshots/desktop-modal.jpg",
+      "screenshots/desktop-itinerary.jpg",
+      "screenshots/og-cover.jpg",
+      "screenshots/mobile-hero.jpg",
+      "screenshots/mobile-explorer.jpg",
+      "screenshots/mobile-modal.jpg"
+    ]
+  },
+  "skill": {
+    "name": "wanderlust-3d-studio",
+    "path": "~/.config/opencode/skills/wanderlust-3d-studio",
+    "catalogSource": "~/Projects/opencode-skills",
+    "catalogUrl": "https://somphol.github.io/opencode-skills/",
+    "skillUrl": "https://somphol.github.io/opencode-skills/wanderlust-3d-studio/SKILL.md",
+    "files": 24,
+    "sizeMB": 0.27,
+    "version": "489e31920103",
+    "repository": "https://github.com/somphol/opencode-skills"
+  },
+  "credits": {
+    "builtWith": "OpenCode + DeepSeek V4.1 Flash",
+    "author": "Somphol Boonjing",
+    "photography": "Unsplash contributors, Unsplash License",
+    "icons": "Hand-drawn inline SVG",
+    "fonts": "System font stacks, no web fonts"
+  },
+  "operatorNotes": {
+    "githubAuth": "Reused the existing macOS Keychain credential through git's osxkeychain helper; one credential read was used for the REST API calls and repeated pushes did not produce new prompts.",
+    "tailwind": "The Tailwind Play CDN is present because the brief requested it. It is not the source of layout and logs a development-only warning. Removing the two script tags in index.html is safe.",
+    "snapshot": "This file is a provenance snapshot, not a live meter. Update it after a new build with real values."
+  }
+}
